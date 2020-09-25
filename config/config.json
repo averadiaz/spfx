@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tipos-de-proyectos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tiposDeProyectos/TiposDeProyectosWebPart.js",
+          "manifest": "./src/webparts/tiposDeProyectos/TiposDeProyectosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TiposDeProyectosWebPartStrings": "lib/webparts/tiposDeProyectos/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
